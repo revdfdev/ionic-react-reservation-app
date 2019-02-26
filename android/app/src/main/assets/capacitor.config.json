@@ -1,0 +1,7 @@
+{
+  "appId": "com.webcubic.reservation",
+  "appName": "Reservation",
+  "bundledWebRuntime": false,
+  "webDir": "build",
+  "linuxAndroidStudioPath": "/home/webcubic3/.development/android-studio/android-studio/bin/studio.sh"
+}
