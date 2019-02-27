@@ -20,7 +20,6 @@ const client = new ApolloClient({
   },
   onError: ({ networkError }: any) => {
     if (networkError) console.log("Network error", networkError);
-    if (networkError.statusCode === 401) localStorage.removeItem('token');
   }
 })
 

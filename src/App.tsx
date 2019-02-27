@@ -5,6 +5,7 @@ import { IonApp } from "@ionic/react"
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './pages/Login';
 import './theme.css';
+import withSession from "./components/withSession";
 
 class App extends Component {
   render() {
@@ -18,4 +19,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withSession(App);
